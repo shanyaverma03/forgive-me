@@ -1,0 +1,51 @@
+/* Test.css */
+.test-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f0f2;
+}
+
+#no,
+#yes {
+  margin-top: 50px;
+  transition: 0.5s;
+  background-color: #a2dbe3; /* Pastel blue */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#yes {
+  background-color: #f7b1c6; /* Pastel pink */
+  margin-right: 50px;
+}
+
+.header {
+  font-size: 30px;
+  font-weight: bold;
+  color: #ff9f90;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.gif {
+  width: 300px; /* Adjust the size as needed */
+
+  margin-bottom: 20px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-button {
+  position: absolute;
+}
